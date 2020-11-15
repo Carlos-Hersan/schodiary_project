@@ -12,8 +12,8 @@ class MyApp extends StatelessWidget {
     // hacer uso de las facilidades de Material Design puede omitirce esto pero
     // no podran hacer uso de estos widgets de material.dart
     return MaterialApp(
-//      debugShowCheckedModeBanner: false,
-      theme: ThemeData.light(), //  Tema Claro
+      debugShowCheckedModeBanner: false,
+      //     theme: ThemeData.light(), //  Tema Claro
       theme: ThemeData.dark(), // Tema Obscuro
       home: SplashScreen(),
     );
